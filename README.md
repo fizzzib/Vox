@@ -1,4 +1,4 @@
-# NeuroVox
+# NeuroVox - playing with a complete new version
 
 NeuroVox is an Obsidian plugin that enhances your note-taking with voice transcription and AI capabilities. Record your voice, transcribe it, and apply custom AI prompts to the transcription.
 
