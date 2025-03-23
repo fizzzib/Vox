@@ -1,6 +1,6 @@
-# NeuroVox
+# Vox
 
-NeuroVox is an Obsidian plugin that enhances your note-taking with voice transcription and AI capabilities. Record your voice, transcribe it, and apply custom AI prompts to the transcription.
+Vox is an Obsidian plugin that enhances your note-taking with voice transcription and AI capabilities. Record your voice, transcribe it, and apply custom AI prompts to the transcription.
 
 ## Features
 
@@ -12,7 +12,7 @@ NeuroVox is an Obsidian plugin that enhances your note-taking with voice transcr
 
 ## Installation
 
-1. Download the NeuroVox plugin from Community Plugins.
+1. Download the Vox plugin from Community Plugins.
 2. Enable the plugin from the Obsidian settings by toggling it on.
 3. Input your OpenAI and/or Groq API Key (instructions below).
 4. Choose a folder to save the Recordings.
@@ -37,7 +37,7 @@ If you need to obtain an OpenAI API key, follow the steps below:
     - On the API Keys page, click "Create new secret key."
 
 4. **Secure Your API Key**:
-    - Copy the newly generated API key into the `🔑 Api Keys` accordion in the Neurovox Settings. Treat this key like a password and do not share it with anyone.
+    - Copy the newly generated API key into the `🔑 Api Keys` accordion in the Vox Settings. Treat this key like a password and do not share it with anyone.
 
 5. **Billing Information**:
     - You need to add billing information to your OpenAI account to make API calls.
