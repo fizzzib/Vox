@@ -43,6 +43,37 @@ If you need to obtain an OpenAI API key, follow the steps below:
     - You need to add billing information to your OpenAI account to make API calls.
     - Groq is currently free.
 
+## Development
+
+### Prerequisites
+
+- Node.js (version 16 or higher)
+- npm
+
+### Local Development
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development build: `npm run dev`
+   - This will start ESBuild in watch mode, automatically rebuilding when files change
+
+### Building the Plugin
+
+To build the plugin manually:
+
+```bash
+npm run build
+```
+
+This will create the following files in the root directory:
+- `main.js` - The bundled JavaScript file
+- `manifest.json` - The plugin manifest
+- `styles.css` - The plugin styles
+
+### Automated Builds with GitHub Actions
+
+This plugin uses GitHub Actions to automate the build process. See [GITHUB_ACTIONS.md](GITHUB_ACTIONS.md) for details on how the automated build and release process works.
+
 ## Contribution
 
 Contributions are welcome! Please fork the repository, make your changes, and open a pull request.
